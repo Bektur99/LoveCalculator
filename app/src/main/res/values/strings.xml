@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">4MONTH LESSON6 + HW6</string>
+    <string name="first_name">First Name</string>
+    <string name="second_name">Second Name</string>
+    <string name="get_percentage">Get Percentage</string>
+    <string name="love_calculator">Love Calculator</string>
+    <string name="me">Me</string>
+    <string name="you">You</string>
+    <string name="calculate">Calculate</string>
+    <string name="your_score">Your Score</string>
+    <string name="_100">100%</string>
+    <string name="try_again">Try Again</string>
+    <string name="sm_text_about_this_percentage">SM text about this percentage</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

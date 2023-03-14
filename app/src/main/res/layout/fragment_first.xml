@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculator"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#6d64ff"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="34dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First name"
+        android:layout_marginStart="40dp"
+        android:textSize="20sp"
+        android:textColor="?android:actionBarWidgetTheme"
+        android:layout_marginVertical="10dp"/>
+
+    <EditText
+        android:id="@+id/first_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="You"
+        android:paddingStart="30dp"
+        android:background="@drawable/edit_text_bg"
+        android:padding="15dp"
+        android:layout_marginHorizontal="20dp"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Second name"
+        android:layout_marginStart="40dp"
+        android:textSize="20sp"
+        android:textColor="?android:actionBarWidgetTheme"
+        android:layout_marginVertical="10dp"/>
+
+    <EditText
+        android:id="@+id/second_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Me"
+        android:paddingStart="30dp"
+        android:background="@drawable/edit_text_bg"
+        android:padding="15dp"
+        android:layout_marginHorizontal="20dp"
+        tools:ignore="RtlSymmetry" />
+
+    <com.google.android.material.button.MaterialButton
+        android:textColor="?android:actionBarWidgetTheme"
+        app:cornerRadius="30dp"
+        android:id="@+id/btn_calculate"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginVertical="30dp"
+        android:text="Calculator"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        tools:ignore="HardcodedText" />
+
+
+    <ImageView
+        android:id="@+id/btnHistory"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="end|bottom"
+        android:src="@drawable/ic_history" />
+
+</LinearLayout>
